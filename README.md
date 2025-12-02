@@ -1,15 +1,14 @@
 # 👩🏾‍💻 Beatriz Costa
 
-**`Desenvolvedora de Software`**
+**`Software Developer`**
 
-Me chamo Beatriz Lorena da Costa, tenho 20 anos e nasci no Brasil. Concluí o secundário em Portugal, na Escola Secundária de Santo André (Barreiro), no curso Profissional de Gestão e Programação de Sistemas Informáticos.
-Atualmente, estou a fazer o Curso Técnico de Gestão e Programação de Sistemas de Informação.
+My name is Beatriz Lorena da Costa, I'm 20 years old and I was born in Brazil. I completed secondary school in Portugal, at Escola Secundária de Santo André (Barreiro), in the Vocational Course in Management and Programming of Computer Systems. I'm currently studying for the Technical Course in Information Systems Management and Programming.
 
-Sou apaixonada por tecnologia, estou sempre a aprender e a criar, e adoro desenvolver novos tipos de software.
+I'm passionate about technology, always learning, building, and exploring new ideas. I love developing new types of software and improving my skills every day.
 
 ---
 
-### 🤖 Linguagens e Tecnologias
+### 🤖 Languages & Technologies
 
 <img align="left" alt="HTML" title="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
 
@@ -36,25 +35,24 @@ Sou apaixonada por tecnologia, estou sempre a aprender e a criar, e adoro desenv
 
 ---
 
-### Hoje estou aprendendo:
+### Currently learning:
 
-C#  e integração com base de dados
+C# and database integration
 
 <!-- ![WakaTime stats](https://wakatime.com/share/@BeatrizLorenaCosta/SEU-PROJETO.svg) -->
 
 ---
 
-### 📊 Estatísticas
+### 📊 Statistics
 
 
 ![](https://github-readme-stats-wheat-two-53.vercel.app/api/top-langs/?username=boocarvalho&theme=neon&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
 
 ## Commits
 ![Snake animation](https://github.com/BeatrizLorenaCosta/BeatrizLorenaCosta/blob/main/dist/github-snake.svg)
 
 ---
 
-### 🌐 Contatos
+### 🌐 Contacts
 
 [LinkedIn](https://www.linkedin.com/in/beatriz-lorena-6a25722a7/)
