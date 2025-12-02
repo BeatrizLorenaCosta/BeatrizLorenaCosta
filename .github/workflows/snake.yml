@@ -14,10 +14,7 @@ jobs:
       - name: Generate GitHub Snake
         uses: Platane/snk@v3
         with:
-          # GitHub username para ler o gráfico de contribuições
-          github_user_name: BeatrizLorenaCosta
-
-          # lista de arquivos que serão gerados
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
