@@ -1,9 +1,9 @@
 name: GitHub Snake
 
 on:
-  workflow_dispatch:  # permite rodar manualmente
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # roda todo dia à meia-noite
+    - cron: '0 0 * * *'
 
 jobs:
   build:
@@ -14,7 +14,7 @@ jobs:
       - name: Generate GitHub Snake
         uses: Platane/snk@v3
         with:
-          github_user_name: BeatrizLorenaCosta
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
