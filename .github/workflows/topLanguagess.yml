@@ -1,0 +1,31 @@
+name: GitHub Top Languages
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write  # necessário para push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate Top Languages
+        uses: your/top-languages-action@vX   # substitua pela action correta
+        with:
+          github_user_name: BeatrizLorenaCosta
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output_file: dist/top-languages.svg
+
+      - name: Commit Top Languages
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add dist/top-languages.svg
+          git commit -m "Update Top Languages" || echo "No changes to commit"
+          git push
