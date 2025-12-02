@@ -1,23 +1,25 @@
-name: Top Languages
+name: Update GitHub Stats
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # roda todo dia à meia-noite
+    - cron: '0 0 * * *'
 
 jobs:
-  build:
+  stats:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Generate Top Languages
-        run: |
-          git clone https://github.com/anuraghazra/github-readme-stats.git temp-stats
-          cd temp-stats
-          npm install
-          node index.js --username BeatrizLorenaCosta --output ../dist/top-languages.svg --theme github
+        uses: anuraghazra/github-readme-stats-action@v2
+        with:
+          username: BeatrizLorenaCosta
+          output: dist/top-languages.svg
+          theme: github
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit Top Languages
         run: |
