@@ -38,7 +38,7 @@ Focused on building software, learning new technologies, and improving through r
 
 ### Currently learning:
 
-C# and database integration
+Python automations 🐍
 
 <!-- ![WakaTime stats](https://wakatime.com/share/@BeatrizLorenaCosta/SEU-PROJETO.svg) -->
 
