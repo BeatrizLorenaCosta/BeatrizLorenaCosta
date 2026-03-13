@@ -2,9 +2,10 @@
 
 **`Software Developer`**
 
-My name is Beatriz Lorena da Costa, I'm 20 years old and I was born in Brazil. I completed secondary school in Portugal, at Escola Secundária de Santo André (Barreiro), in the Vocational Course in Management and Programming of Computer Systems. I'm currently studying for the Technical Course in Information Systems Management and Programming.
-
-I'm passionate about technology, always learning, building, and exploring new ideas. I love developing new types of software and improving my skills every day.
+Junior Software Developer based in Portugal.
+Background in Computer Systems Management and Programming.
+Currently studying Information Systems Management and Programming.
+Focused on building software, learning new technologies, and improving through real projects.
 
 ---
 
