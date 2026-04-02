@@ -40,7 +40,7 @@ Focused on building software, learning new technologies, and improving through r
 
 Python automations 🐍
 
-![WakaTime stats](https://wakatime.com/share/@BeatrizLorenaCosta/Gerador_Json.svg)
+![WakaTime Coding Activity](https://wakatime.com/share/@a0070836-c1b7-4cad-96ef-57e01837fd3b/ecfaddbf-1cba-4ee7-b045-b47dccb3ee1b.svg)
 
 ---
 
