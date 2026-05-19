@@ -46,12 +46,10 @@ Python automations 🐍
 
 ### 📊 Statistics
 
-![Top Languages](./dist/top-languages.svg)
-
 ![Top Languages](https://github-readme-stats-wheat-two-53.vercel.app/api/top-langs/?username=BeatrizLorenaCosta&theme=neon&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## Commits
-![Snake animation](https://github.com/BeatrizLorenaCosta/BeatrizLorenaCosta/blob/main/dist/github-snake.svg)
+![Snake animation](https://github.com/BeatrizLorenaCosta/BeatrizLorenaCosta/main/dist/github-snake.svg)
 
 ---
 
