@@ -10,21 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Create folder
         run: mkdir -p dist
 
-      - name: Download SVG
+      - name: Download Top Languages SVG
         run: |
-          curl -L -o dist/top-langs.svg \
+          curl -L -o dist/top-languages.svg \
           "https://github-readme-stats.vercel.app/api/top-langs/?username=BeatrizLorenaCosta&theme=github"
 
       - name: Commit changes
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add dist/top-langs.svg
-          git commit -m "Update stats" || echo "No changes"
+          git add dist/top-languages.svg
+          git commit -m "Update Top Languages" || echo "No changes to commit"
           git push
