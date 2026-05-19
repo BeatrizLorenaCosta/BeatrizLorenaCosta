@@ -50,7 +50,7 @@ Python automations 🐍
 
 ## Commits
 ![Snake animation](https://github.com/BeatrizLorenaCosta/BeatrizLorenaCosta/main/blob/dist/github-snake.svg)
-dist/github-snake.svg
+
 ---
 
 ### 🌐 Contacts
