@@ -8,18 +8,18 @@ on:
 jobs:
   stats:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Generate Top Languages
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: BeatrizLorenaCosta
-          output: dist/top-languages.svg
-          theme: github
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create dist folder
+        run: mkdir -p dist
+
+      - name: Download Top Languages SVG
+        run: |
+          curl -L -o dist/top-languages.svg \
+          "https://github-readme-stats.vercel.app/api/top-langs/?username=BeatrizLorenaCosta&theme=github"
 
       - name: Commit Top Languages
         run: |
