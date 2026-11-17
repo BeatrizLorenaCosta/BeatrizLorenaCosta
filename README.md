@@ -1,10 +1,10 @@
 # 👩🏾‍💻 Beatriz Costa
 
-**`Software Developer`**
+**`Software Developer and Software engineer student`**
 
 Junior Software Developer based in Portugal.
 Background in Computer Systems Management and Programming.
-Currently studying Information Systems Management and Programming.
+Currently studying software engineering.
 Focused on building software, learning new technologies, and improving through real projects.
 
 ---
@@ -37,8 +37,6 @@ Focused on building software, learning new technologies, and improving through r
 ---
 
 ### Currently learning:
-
-Python automations 🐍
 
 ![WakaTime Coding Activity](https://wakatime.com/share/@a0070836-c1b7-4cad-96ef-57e01837fd3b/ecfaddbf-1cba-4ee7-b045-b47dccb3ee1b.svg)
 
